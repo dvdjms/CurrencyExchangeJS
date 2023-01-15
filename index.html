@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Exchange.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Exchange</title>
+</head>
+<body>
+    <h1>Foreign Exchange</h1>
+<div id="formDiv">
+    <form class="form-inline" id="formData">
+        <input class="form-control" id="date" name="date" min="2022-10-17" max="2023-01-13" type="date" placeholder="Date">
+        <input class="form-control" id="amount" name="amount" type="text" placeholder="Amount">
+    
+        <select class="form-control" id="currencyFrom" name="currencyFrom">
+            <option>From Currency...</option>
+            <option>USD</option>
+            <option>GBP</option>
+            <option>AUD</option>
+            <option>BGN</option>
+            <option>BRL</option>
+            <option>CAD</option>
+            <option>CHF</option>
+            <option>CNY</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>HKD</option>
+            <option>HUF</option>
+            <option>IDR</option>
+            <option>ILS</option>
+            <option>INR</option>
+            <option>ISK</option>
+            <option>JPY</option>
+            <option>KRW</option>
+            <option>MXN</option>
+            <option>MYR</option>
+            <option>NOK</option>
+            <option>NZD</option>
+            <option>PHP</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option>SGD</option>
+            <option>THB</option>
+            <option>TRY</option>
+            <option>ZAR</option>
+        </select>
+        <select class="form-control" id="currencyTo" name="currencyTo">
+            <option>To Currency...</option>
+            <option>USD</option>
+            <option>GBP</option>
+            <option>AUD</option>
+            <option>BGN</option>
+            <option>BRL</option>
+            <option>CAD</option>
+            <option>CHF</option>
+            <option>CNY</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>HKD</option>
+            <option>HUF</option>
+            <option>IDR</option>
+            <option>ILS</option>
+            <option>INR</option>
+            <option>ISK</option>
+            <option>JPY</option>
+            <option>KRW</option>
+            <option>MXN</option>
+            <option>MYR</option>
+            <option>NOK</option>
+            <option>NZD</option>
+            <option>PHP</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option>SGD</option>
+            <option>THB</option>
+            <option>TRY</option>
+            <option>ZAR</option>
+        </select>
+        <input class="btn btn-primary mb-2" id="button" type="submit"></input>
+    </form>
+</div>
+<div id="ratesContainer">
+    <div id="ratesContainerOne">
+        <h5 class="ratesOne" id="currencyOne"></h5>
+        <h5 class="ratesTwo" id="rateOne"></h5>
+    </div>
+    <div id="ratesContainerTwo">
+        <h5 class="ratesThree" id="currencyTwo"></h5>
+        <h5 class="ratesFour" id="rateTwo"></h5>
+    </div>
+    <h2 id="rate"></h2>
+</div>
+
+   
+
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#formDiv {
+    border: solid rgb(252, 231, 231);
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px;
+    width: 55%;
+}
+
+.form-control {
+    width: 23% !important;
+}
+
+#button {
+    margin-top: 15px;
+    margin-left: 90%;
+}
+
+#ratesContainerOne {
+    padding-top: 35px;
+    margin-left: 25%;
+    width: 30%;
+}
+
+#ratesContainerTwo {
+    float: left;
+    margin-left: 0;
+    width: 20%;
+}
+
+.currencyOne {
+    float: left;
+    width: 20%;
+
+}
+
+.ratesOne {
+    float: left;
+    padding-top: 18px;
+    width: 13%;
+}
+
+.ratesTwo {
+    float: left;
+    padding-top: 18px;
+    width: 25%;
+}
+
+.ratesThree {
+    float: left;
+    padding-top: 18px;
+    width: 18%;
+}
+
+.ratesFour {
+    float: left;
+    padding-top: 18px;
+    width: 18%;
+}
+
+
+#rate {
+    float: right;
+    width: 17%;
+    border: solid rgb(252, 231, 231);
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-right: 25%;
+    padding: 15px;
+    text-align: center;
+}
